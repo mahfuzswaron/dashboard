@@ -1,1 +1,1 @@
-console.log('connected');
+const icons = document.getElementsByClassName("svg_icon")

@@ -21,10 +21,21 @@ nav{
 }
 nav ul li{
     list-style: none;
-    margin: 15px 0;
+    margin: 25px 0;
 }
-.icon{
+
+.svg_icon{
+    fill: rgb(204, 202, 202);
     width: 30px;
+
+}
+.svg_icon:focus{
+    padding: 15px;
+    fill: white;
+    background-color: #3E2EDF;
+    outline: none;
+    border-radius: 30%;
+    box-shadow: 0 0 10px 2px rgba(155, 137, 221, 0.44);
 }
 .logo{
     width: 50px;

@@ -19,7 +19,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 100%;
 
 }
 nav ul li{
@@ -58,8 +58,8 @@ nav ul li{
     margin-top: 50px;
     display: flex;
     align-items: center;
-    
 }
+
 .welcome-div{
     margin-left: 30px;
 }
@@ -82,7 +82,10 @@ nav ul li{
     margin-bottom: 1px;
     margin-top: 0;
 }
-
+.today-div{
+    margin-top: 30px;
+    margin-right: 70px;
+}
 .today-title{
     margin-bottom: 1px;
     font-weight: bold;
@@ -103,4 +106,22 @@ select{
     color: white;
     border: none;
     outline: none;
+}
+.transactions-div{
+    margin-top: 30px;
+}
+.date{
+    color: #B8B8B8;
+    font-size: small;
+    margin-top: 100px;
+}
+.title{
+    margin-top: 15px
+}
+.subtitle{
+    margin-top: 5px;
+    margin-bottom: 15px ;
+}
+hr{
+    margin-bottom: 15px;
 }
